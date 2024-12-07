@@ -1,0 +1,107 @@
+/* START General */
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --main-background-color:#24353F;
+    --box-shadow:-5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+body{
+    font-family: "Titillium Web", sans-serif;
+    background-color: var(--main-background-color);
+}
+
+h1{
+    color: #17a2b8;
+}
+/* END General */
+main .container{
+    background-color: var(--main-background-color);
+}
+
+.container > .row,
+.container > div{
+    background-color: var(--main-background-color);
+    box-shadow: var(--box-shadow);
+}
+
+.btn-outline-info:hover{
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+input{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+input::placeholder{
+    color: #fff !important;
+}
+
+input:focus{
+    box-shadow: none !important;
+}
+
+.underline{
+    text-decoration: none;
+}
+
+.underline:hover{
+    text-decoration: underline;
+}
+
+.navbar{
+    box-shadow: var(--box-shadow);
+}
+
+.custom-popup {
+    background-color: #FAF6E3;
+    border-radius: 10px;
+}
+
+.custom-title {
+    color: #ff0000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.custom-button {
+    background-color: #ff0000 !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 10px 20px !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.custom-popup2 {
+    background-color: #FAF6E3;
+    border-radius: 10px;
+}
+
+.custom-title2 {
+    color: #a5dc86;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.custom-button2 {
+    background-color: #a5dc86 !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 10px 20px !important;
+    font-size: 18px;
+    font-weight: bold;
+}
